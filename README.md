@@ -49,6 +49,11 @@ npm install -D tailwindcss postcss autoprefixer
 @tailwind utilities;
 ```
 
+5. Add the follwoing details in the plugin property of tailwind config
+```
+[require("daisyui"),require("@tailwindcss/line-clamp")]
+```
+
 ### Adding plugins and dependencies
 
 ```
